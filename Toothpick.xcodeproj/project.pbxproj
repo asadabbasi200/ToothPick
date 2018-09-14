@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DDB148214AD5B800F4F2E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB147214AD5B800F4F2E0 /* AppDelegate.swift */; };
+		89DDB14A214AD5B800F4F2E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB149214AD5B800F4F2E0 /* ViewController.swift */; };
+		89DDB14D214AD5B800F4F2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DDB14B214AD5B800F4F2E0 /* Main.storyboard */; };
+		89DDB14F214AD5BA00F4F2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DDB14E214AD5BA00F4F2E0 /* Assets.xcassets */; };
+		89DDB152214AD5BA00F4F2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DDB150214AD5BA00F4F2E0 /* LaunchScreen.storyboard */; };
+		89DDB15D214AD5BA00F4F2E0 /* ToothpickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB15C214AD5BA00F4F2E0 /* ToothpickTests.swift */; };
+		89DDB168214AD5BA00F4F2E0 /* ToothpickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB167214AD5BA00F4F2E0 /* ToothpickUITests.swift */; };
+		89DDB176214B1ADF00F4F2E0 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB175214B1ADF00F4F2E0 /* page2.swift */; };
+		89DDB17A214B1FFF00F4F2E0 /* page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB179214B1FFF00F4F2E0 /* page3.swift */; };
+		89DDB17C214B215A00F4F2E0 /* landingpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB17B214B215A00F4F2E0 /* landingpage.swift */; };
+		89DDB17E214B231900F4F2E0 /* toothpick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89DDB17D214B231800F4F2E0 /* toothpick.jpg */; };
+		89DDB180214B280E00F4F2E0 /* endpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDB17F214B280E00F4F2E0 /* endpage.swift */; };
+		89DDB182214B293A00F4F2E0 /* Endingpage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89DDB181214B293A00F4F2E0 /* Endingpage.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DDB159214AD5BA00F4F2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DDB13C214AD5B800F4F2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DDB143214AD5B800F4F2E0;
+			remoteInfo = Toothpick;
+		};
+		89DDB164214AD5BA00F4F2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DDB13C214AD5B800F4F2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DDB143214AD5B800F4F2E0;
+			remoteInfo = Toothpick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89DDB144214AD5B800F4F2E0 /* Toothpick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toothpick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DDB147214AD5B800F4F2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89DDB149214AD5B800F4F2E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89DDB14C214AD5B800F4F2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89DDB14E214AD5BA00F4F2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DDB151214AD5BA00F4F2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89DDB153214AD5BA00F4F2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DDB158214AD5BA00F4F2E0 /* ToothpickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToothpickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DDB15C214AD5BA00F4F2E0 /* ToothpickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothpickTests.swift; sourceTree = "<group>"; };
+		89DDB15E214AD5BA00F4F2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DDB163214AD5BA00F4F2E0 /* ToothpickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToothpickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DDB167214AD5BA00F4F2E0 /* ToothpickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothpickUITests.swift; sourceTree = "<group>"; };
+		89DDB169214AD5BA00F4F2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DDB175214B1ADF00F4F2E0 /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
+		89DDB179214B1FFF00F4F2E0 /* page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3.swift; sourceTree = "<group>"; };
+		89DDB17B214B215A00F4F2E0 /* landingpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landingpage.swift; sourceTree = "<group>"; };
+		89DDB17D214B231800F4F2E0 /* toothpick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toothpick.jpg; sourceTree = "<group>"; };
+		89DDB17F214B280E00F4F2E0 /* endpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endpage.swift; sourceTree = "<group>"; };
+		89DDB181214B293A00F4F2E0 /* Endingpage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Endingpage.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DDB141214AD5B800F4F2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DDB155214AD5BA00F4F2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DDB160214AD5BA00F4F2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DDB13B214AD5B800F4F2E0 = {
+			isa = PBXGroup;
+			children = (
+				89DDB146214AD5B800F4F2E0 /* Toothpick */,
+				89DDB15B214AD5BA00F4F2E0 /* ToothpickTests */,
+				89DDB166214AD5BA00F4F2E0 /* ToothpickUITests */,
+				89DDB145214AD5B800F4F2E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DDB145214AD5B800F4F2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DDB144214AD5B800F4F2E0 /* Toothpick.app */,
+				89DDB158214AD5BA00F4F2E0 /* ToothpickTests.xctest */,
+				89DDB163214AD5BA00F4F2E0 /* ToothpickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DDB146214AD5B800F4F2E0 /* Toothpick */ = {
+			isa = PBXGroup;
+			children = (
+				89DDB147214AD5B800F4F2E0 /* AppDelegate.swift */,
+				89DDB149214AD5B800F4F2E0 /* ViewController.swift */,
+				89DDB175214B1ADF00F4F2E0 /* page2.swift */,
+				89DDB17D214B231800F4F2E0 /* toothpick.jpg */,
+				89DDB179214B1FFF00F4F2E0 /* page3.swift */,
+				89DDB181214B293A00F4F2E0 /* Endingpage.jpg */,
+				89DDB17B214B215A00F4F2E0 /* landingpage.swift */,
+				89DDB17F214B280E00F4F2E0 /* endpage.swift */,
+				89DDB14B214AD5B800F4F2E0 /* Main.storyboard */,
+				89DDB14E214AD5BA00F4F2E0 /* Assets.xcassets */,
+				89DDB150214AD5BA00F4F2E0 /* LaunchScreen.storyboard */,
+				89DDB153214AD5BA00F4F2E0 /* Info.plist */,
+			);
+			path = Toothpick;
+			sourceTree = "<group>";
+		};
+		89DDB15B214AD5BA00F4F2E0 /* ToothpickTests */ = {
+			isa = PBXGroup;
+			children = (
+				89DDB15C214AD5BA00F4F2E0 /* ToothpickTests.swift */,
+				89DDB15E214AD5BA00F4F2E0 /* Info.plist */,
+			);
+			path = ToothpickTests;
+			sourceTree = "<group>";
+		};
+		89DDB166214AD5BA00F4F2E0 /* ToothpickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89DDB167214AD5BA00F4F2E0 /* ToothpickUITests.swift */,
+				89DDB169214AD5BA00F4F2E0 /* Info.plist */,
+			);
+			path = ToothpickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DDB143214AD5B800F4F2E0 /* Toothpick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DDB16C214AD5BA00F4F2E0 /* Build configuration list for PBXNativeTarget "Toothpick" */;
+			buildPhases = (
+				89DDB140214AD5B800F4F2E0 /* Sources */,
+				89DDB141214AD5B800F4F2E0 /* Frameworks */,
+				89DDB142214AD5B800F4F2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toothpick;
+			productName = Toothpick;
+			productReference = 89DDB144214AD5B800F4F2E0 /* Toothpick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DDB157214AD5BA00F4F2E0 /* ToothpickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DDB16F214AD5BA00F4F2E0 /* Build configuration list for PBXNativeTarget "ToothpickTests" */;
+			buildPhases = (
+				89DDB154214AD5BA00F4F2E0 /* Sources */,
+				89DDB155214AD5BA00F4F2E0 /* Frameworks */,
+				89DDB156214AD5BA00F4F2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DDB15A214AD5BA00F4F2E0 /* PBXTargetDependency */,
+			);
+			name = ToothpickTests;
+			productName = ToothpickTests;
+			productReference = 89DDB158214AD5BA00F4F2E0 /* ToothpickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89DDB162214AD5BA00F4F2E0 /* ToothpickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DDB172214AD5BA00F4F2E0 /* Build configuration list for PBXNativeTarget "ToothpickUITests" */;
+			buildPhases = (
+				89DDB15F214AD5BA00F4F2E0 /* Sources */,
+				89DDB160214AD5BA00F4F2E0 /* Frameworks */,
+				89DDB161214AD5BA00F4F2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DDB165214AD5BA00F4F2E0 /* PBXTargetDependency */,
+			);
+			name = ToothpickUITests;
+			productName = ToothpickUITests;
+			productReference = 89DDB163214AD5BA00F4F2E0 /* ToothpickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DDB13C214AD5B800F4F2E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Cheney;
+				TargetAttributes = {
+					89DDB143214AD5B800F4F2E0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					89DDB157214AD5BA00F4F2E0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 89DDB143214AD5B800F4F2E0;
+					};
+					89DDB162214AD5BA00F4F2E0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 89DDB143214AD5B800F4F2E0;
+					};
+				};
+			};
+			buildConfigurationList = 89DDB13F214AD5B800F4F2E0 /* Build configuration list for PBXProject "Toothpick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DDB13B214AD5B800F4F2E0;
+			productRefGroup = 89DDB145214AD5B800F4F2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DDB143214AD5B800F4F2E0 /* Toothpick */,
+				89DDB157214AD5BA00F4F2E0 /* ToothpickTests */,
+				89DDB162214AD5BA00F4F2E0 /* ToothpickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DDB142214AD5B800F4F2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DDB152214AD5BA00F4F2E0 /* LaunchScreen.storyboard in Resources */,
+				89DDB17E214B231900F4F2E0 /* toothpick.jpg in Resources */,
+				89DDB182214B293A00F4F2E0 /* Endingpage.jpg in Resources */,
+				89DDB14F214AD5BA00F4F2E0 /* Assets.xcassets in Resources */,
+				89DDB14D214AD5B800F4F2E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DDB156214AD5BA00F4F2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DDB161214AD5BA00F4F2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DDB140214AD5B800F4F2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DDB14A214AD5B800F4F2E0 /* ViewController.swift in Sources */,
+				89DDB148214AD5B800F4F2E0 /* AppDelegate.swift in Sources */,
+				89DDB17A214B1FFF00F4F2E0 /* page3.swift in Sources */,
+				89DDB176214B1ADF00F4F2E0 /* page2.swift in Sources */,
+				89DDB180214B280E00F4F2E0 /* endpage.swift in Sources */,
+				89DDB17C214B215A00F4F2E0 /* landingpage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DDB154214AD5BA00F4F2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DDB15D214AD5BA00F4F2E0 /* ToothpickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DDB15F214AD5BA00F4F2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DDB168214AD5BA00F4F2E0 /* ToothpickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DDB15A214AD5BA00F4F2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DDB143214AD5B800F4F2E0 /* Toothpick */;
+			targetProxy = 89DDB159214AD5BA00F4F2E0 /* PBXContainerItemProxy */;
+		};
+		89DDB165214AD5BA00F4F2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DDB143214AD5B800F4F2E0 /* Toothpick */;
+			targetProxy = 89DDB164214AD5BA00F4F2E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89DDB14B214AD5B800F4F2E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DDB14C214AD5B800F4F2E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89DDB150214AD5BA00F4F2E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DDB151214AD5BA00F4F2E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89DDB16A214AD5BA00F4F2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DDB16B214AD5BA00F4F2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DDB16D214AD5BA00F4F2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y8ATGR3J2;
+				INFOPLIST_FILE = Toothpick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Colhodm-ToothPick.Toothpick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89DDB16E214AD5BA00F4F2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y8ATGR3J2;
+				INFOPLIST_FILE = Toothpick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Colhodm-ToothPick.Toothpick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89DDB170214AD5BA00F4F2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y8ATGR3J2;
+				INFOPLIST_FILE = ToothpickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Colhodm-ToothPick.ToothpickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toothpick.app/Toothpick";
+			};
+			name = Debug;
+		};
+		89DDB171214AD5BA00F4F2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y8ATGR3J2;
+				INFOPLIST_FILE = ToothpickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Colhodm-ToothPick.ToothpickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toothpick.app/Toothpick";
+			};
+			name = Release;
+		};
+		89DDB173214AD5BA00F4F2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y8ATGR3J2;
+				INFOPLIST_FILE = ToothpickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Colhodm-ToothPick.ToothpickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Toothpick;
+			};
+			name = Debug;
+		};
+		89DDB174214AD5BA00F4F2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y8ATGR3J2;
+				INFOPLIST_FILE = ToothpickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Colhodm-ToothPick.ToothpickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Toothpick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DDB13F214AD5B800F4F2E0 /* Build configuration list for PBXProject "Toothpick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DDB16A214AD5BA00F4F2E0 /* Debug */,
+				89DDB16B214AD5BA00F4F2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DDB16C214AD5BA00F4F2E0 /* Build configuration list for PBXNativeTarget "Toothpick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DDB16D214AD5BA00F4F2E0 /* Debug */,
+				89DDB16E214AD5BA00F4F2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DDB16F214AD5BA00F4F2E0 /* Build configuration list for PBXNativeTarget "ToothpickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DDB170214AD5BA00F4F2E0 /* Debug */,
+				89DDB171214AD5BA00F4F2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DDB172214AD5BA00F4F2E0 /* Build configuration list for PBXNativeTarget "ToothpickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DDB173214AD5BA00F4F2E0 /* Debug */,
+				89DDB174214AD5BA00F4F2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DDB13C214AD5B800F4F2E0 /* Project object */;
+}
